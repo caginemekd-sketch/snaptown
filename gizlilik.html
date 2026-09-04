@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SnapTown ÔÇö Privacy Policy / Gizlilik Politikas─▒</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Figtree:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --zemin:#eef7ff; --panel:#ffffff;
+  --ink:#123047; --ink-2:#406782; --ink-3:#5b7e96;
+  --cizgi:rgba(18,48,71,.13); --cizgi-2:rgba(18,48,71,.07);
+  --altin:#ffb340; --altin-ink:#8f5309; --altin-yum:rgba(255,179,64,.16);
+  --golge:rgba(28,74,112,.12);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --zemin:#081d2e; --panel:#0e2739;
+    --ink:#e4f1fb; --ink-2:#a9c6da; --ink-3:#89aac1;
+    --cizgi:rgba(196,224,244,.16); --cizgi-2:rgba(196,224,244,.08);
+    --altin:#ffc465; --altin-ink:#ffd48c; --altin-yum:rgba(255,196,101,.14);
+    --golge:rgba(0,0,0,.45);
+  }
+}
+:root[data-theme="dark"]{
+  --zemin:#081d2e; --panel:#0e2739;
+  --ink:#e4f1fb; --ink-2:#a9c6da; --ink-3:#89aac1;
+  --cizgi:rgba(196,224,244,.16); --cizgi-2:rgba(196,224,244,.08);
+  --altin:#ffc465; --altin-ink:#ffd48c; --altin-yum:rgba(255,196,101,.14);
+  --golge:rgba(0,0,0,.45);
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--zemin); color:var(--ink);
+  font-family:"Figtree",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+  font-size:16px; line-height:1.68; -webkit-font-smoothing:antialiased;
+}
+.sar{max-width:760px; margin:0 auto; padding:0 24px}
+header{border-bottom:1px solid var(--cizgi-2); padding:22px 0; margin-bottom:8px}
+header .sar{display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap}
+.marka{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:20px; letter-spacing:-.01em}
+.diller{display:flex; gap:6px}
+.diller button{
+  font-family:"DM Mono",ui-monospace,monospace; font-size:11px; font-weight:500;
+  letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+  padding:7px 13px; border-radius:3px;
+  background:transparent; color:var(--ink-2); border:1px solid var(--cizgi);
+}
+.diller button[aria-pressed="true"]{
+  background:var(--altin-yum); color:var(--altin-ink);
+  border-color:color-mix(in srgb, var(--altin) 40%, transparent);
+}
+main{padding:26px 0 70px}
+h1{font-family:"Fraunces",Georgia,serif; font-weight:400; font-size:clamp(30px,5vw,42px);
+   line-height:1.12; letter-spacing:-.022em; margin:0 0 10px; text-wrap:balance}
+h2{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:22px;
+   letter-spacing:-.012em; margin:38px 0 10px; text-wrap:balance}
+h3{font-size:16px; font-weight:700; margin:22px 0 6px}
+p,li{color:var(--ink-2)}
+p{margin:0 0 13px}
+ul{margin:0 0 13px; padding-left:20px}
+li{margin:5px 0}
+b,strong{color:var(--ink)}
+a{color:var(--ink); text-decoration:none; border-bottom:1px solid var(--cizgi)}
+a:hover{border-color:var(--altin)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--altin); outline-offset:3px; border-radius:2px}
+.tarih{
+  font-family:"DM Mono",ui-monospace,monospace; font-size:11.5px;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3); margin-bottom:26px;
+}
+.kutu{
+  background:var(--panel); border:1px solid var(--cizgi-2);
+  border-radius:5px; padding:18px 20px; margin:16px 0;
+  box-shadow:0 2px 10px var(--golge);
+}
+.kutu p:last-child{margin-bottom:0}
+table{width:100%; border-collapse:collapse; margin:14px 0; font-size:15px}
+.kaydir{overflow-x:auto}
+th,td{text-align:left; padding:10px 12px; border-bottom:1px solid var(--cizgi-2); vertical-align:top}
+th{
+  font-family:"DM Mono",ui-monospace,monospace; font-size:10.5px; font-weight:500;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3);
+}
+td{color:var(--ink-2)}
+footer{border-top:1px solid var(--cizgi); padding:26px 0 44px}
+footer .sar{display:flex; flex-wrap:wrap; gap:14px; justify-content:space-between; align-items:center}
+.kunye{font-family:"DM Mono",ui-monospace,monospace; font-size:11px;
+       letter-spacing:.13em; text-transform:uppercase; color:var(--ink-3)}
+[hidden]{display:none !important}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="sar">
+    <span class="marka">SnapTown</span>
+    <div class="diller">
+      <button id="btnEn" aria-pressed="true">English</button>
+      <button id="btnTr" aria-pressed="false">T├╝rk├ğe</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============================ ENGLISH ============================ -->
+<section id="en" class="sar">
+  <h1>Privacy Policy</h1>
+  <p class="tarih">SnapTown ┬À Last updated 4 September 2026</p>
+
+  <p>SnapTown is a merge puzzle game published by <b>├ça─ş─▒n Emek Davarc─▒</b> (trading as
+     <b>cagan_inc</b>), an individual developer based in T├╝rkiye. This policy explains what
+     information the app handles, who else receives it, and what control you have.</p>
+
+  <div class="kutu">
+    <p><b>The short version.</b> SnapTown has no accounts, no sign-in, and no servers of its own.
+       We never ask for your name, email address or phone number. Your scores and progress stay on
+       your device. The app does show ads and offers in-app purchases, and for those two things
+       Google receives some data about your device. Details below.</p>
+  </div>
+
+  <h2>1. Information stored on your device</h2>
+  <p>The following is saved locally by the app and is <b>never transmitted to us or to anyone else</b>:</p>
+  <ul>
+    <li>Your best score and your current game board</li>
+    <li>Your in-game gold balance</li>
+    <li>Your chosen language</li>
+    <li>Which coupon codes you have already redeemed</li>
+    <li>Whether you own the ad-free purchase, the Platinum Pack, or an active subscription</li>
+    <li>Whether you have seen the tutorial and the rating prompt</li>
+  </ul>
+  <p>This data lives only in the app's own storage. <b>Uninstalling SnapTown deletes all of it.</b>
+     We have no copy and no way to retrieve it.</p>
+
+  <h2>2. Information collected by Google</h2>
+  <p>SnapTown uses three Google services. Each collects data under Google's own privacy
+     policy, not ours.</p>
+
+  <h3>Google AdMob (advertising)</h3>
+  <p>To show ads, the Google Mobile Ads SDK may collect and process:</p>
+  <ul>
+    <li>Your device's <b>advertising ID</b> (a resettable identifier)</li>
+    <li>Device information such as model, operating system version and language</li>
+    <li>Your IP address, and the approximate region derived from it</li>
+    <li>Ad interactions ÔÇö which ads were shown, viewed or tapped</li>
+  </ul>
+  <p>The app declares the <code>com.google.android.gms.permission.AD_ID</code> permission for this
+     purpose. Ads may be personalised or non-personalised depending on your settings and your
+     region. See
+     <a href="https://policies.google.com/technologies/partner-sites">How Google uses information
+     from sites or apps that use our services</a>.</p>
+
+  <h3>Google Play Billing (purchases)</h3>
+  <p>If you buy the ad-free upgrade, the Platinum Pack, or a subscription, the transaction is
+     handled entirely by Google Play. The app receives only a confirmation that a purchase is
+     active. <b>Your card number, billing address and payment details never reach the app and are
+     never visible to us.</b></p>
+
+  <h3>Google Analytics for Firebase</h3>
+  <p>SnapTown uses Google Analytics for Firebase to understand how the game is played
+     in aggregate. It collects:</p>
+  <ul>
+    <li>App opens, session length and how often you come back</li>
+    <li>An app instance identifier that Google generates for this installation</li>
+    <li>Device model, operating system version, country and language</li>
+  </ul>
+  <p>This is <b>aggregate, statistical</b> information. It is not linked to your name or
+     email address, and we cannot identify an individual player from it. We use it to
+     decide what to fix and what to build next. See
+     <a href="https://firebase.google.com/support/privacy">Privacy and Security in
+     Firebase</a>.</p>
+
+  <h2>3. What we do not do</h2>
+  <ul>
+    <li>We do not run any server, and the app sends no data to us</li>
+    <li>We use no crash reporting SDK and no social media SDK</li>
+    <li>We do not collect your name, email address, phone number, contacts, photos or files</li>
+    <li>We do not access your precise location, camera or microphone</li>
+    <li>We do not sell or share personal information with data brokers</li>
+  </ul>
+
+  <h2>4. Permissions the app requests</h2>
+  <div class="kaydir">
+  <table>
+    <thead><tr><th>Permission</th><th>Why it is needed</th></tr></thead>
+    <tbody>
+      <tr><td><code>INTERNET</code></td><td>To load ads and to verify purchases with Google Play. The game itself is fully playable offline.</td></tr>
+      <tr><td><code>AD_ID</code></td><td>Required by Android 13 and later for the advertising SDK to read the advertising ID.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>5. Your choices</h2>
+  <ul>
+    <li><b>Reset or delete your advertising ID.</b> Android Settings ÔåÆ Privacy ÔåÆ Ads. Deleting it
+        replaces the identifier with a string of zeros.</li>
+    <li><b>Turn off ad personalisation.</b> Same settings screen. You will still see ads, but they
+        will not be personalised.</li>
+    <li><b>Remove ads entirely.</b> Buy the ad-free upgrade, the Platinum Pack, or a Premium
+        subscription. The advertising SDK then stops requesting ads.</li>
+    <li><b>Delete everything.</b> Uninstall the app.</li>
+    <li><b>Manage a subscription.</b> Google Play ÔåÆ Payments &amp; subscriptions ÔåÆ Subscriptions.</li>
+  </ul>
+
+  <h2>6. Children</h2>
+  <p>SnapTown is not directed at children under 13. We do not knowingly collect personal
+     information from children. If you believe a child has provided information through the app,
+     contact us at the address below and we will act on it.</p>
+
+  <h2>7. If you are in the European Economic Area, the UK or Switzerland</h2>
+  <p>Under the GDPR you have the right to access, correct, delete, restrict or object to the
+     processing of your personal data, and the right to data portability. Because we hold no
+     personal data ourselves, requests about advertising data should be directed to Google, which
+     acts as the controller for that processing. You may also lodge a complaint with your national
+     data protection authority.</p>
+
+  <h2>8. If you are in California</h2>
+  <p>Under the CCPA/CPRA you have the right to know what personal information is collected, to
+     request its deletion, and to opt out of its sale or sharing. We do not sell or share personal
+     information. Advertising data is handled by Google; see Google's privacy policy for the
+     controls available to you.</p>
+
+  <h2>9. Data retention</h2>
+  <p>We hold no personal data ourselves. Analytics data is stored by Google on our behalf
+     and is retained for up to 14 months. Data held on your device is kept until you
+     uninstall the app or clear its storage. Data collected by Google is retained according to
+     Google's own retention schedules.</p>
+
+  <h2>10. Security</h2>
+  <p>Because SnapTown stores data only on your device and transmits nothing to us, there is no
+     account of yours for us to lose. Purchase verification is handled by Google Play over an
+     encrypted connection.</p>
+
+  <h2>11. Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be published at this address with a new
+     "last updated" date. Significant changes will also be noted in the app's release notes on
+     Google Play.</p>
+
+  <h2>12. Contact</h2>
+  <p>Questions about this policy or about your data:<br>
+     <a href="mailto:cagin344@gmail.com">cagin344@gmail.com</a></p>
+  <p>├ça─ş─▒n Emek Davarc─▒ (cagan_inc) ┬À ─░zmir, T├╝rkiye</p>
+
+  <h2>Third-party policies</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+    <li><a href="https://policies.google.com/technologies/ads">How Google uses cookies in advertising</a></li>
+    <li><a href="https://support.google.com/admob/answer/6128543">AdMob and data collection</a></li>
+  </ul>
+</section>
+
+<!-- ============================ T├£RK├çE ============================ -->
+<section id="tr" class="sar" hidden>
+  <h1>Gizlilik Politikas─▒</h1>
+  <p class="tarih">SnapTown ┬À Son g├╝ncelleme 4 Eyl├╝l 2026</p>
+
+  <p>SnapTown, T├╝rkiye'de ya┼şayan ba─ş─▒ms─▒z geli┼ştirici <b>├ça─ş─▒n Emek Davarc─▒</b>
+     (<b>cagan_inc</b> ad─▒yla) taraf─▒ndan yay─▒nlanan bir birle┼ştirme bulmacas─▒d─▒r. Bu metin,
+     uygulaman─▒n hangi bilgileri i┼şledi─şini, bu bilgileri ba┼şka kimin ald─▒─ş─▒n─▒ ve senin hangi
+     kontrollere sahip oldu─şunu anlat─▒r.</p>
+
+  <div class="kutu">
+    <p><b>K─▒sa ├Âzet.</b> SnapTown'da hesap yok, giri┼ş yok ve bize ait hi├ğbir sunucu yok. Ad─▒n─▒,
+       e-postan─▒ veya telefon numaran─▒ hi├ğ istemiyoruz. Skorlar─▒n ve ilerlemen cihaz─▒nda kal─▒yor.
+       Uygulama reklam g├Âsteriyor ve uygulama i├ği sat─▒n alma sunuyor; bu iki ┼şey i├ğin Google
+       cihaz─▒nla ilgili baz─▒ verileri al─▒yor. Ayr─▒nt─▒lar a┼şa─ş─▒da.</p>
+  </div>
+
+  <h2>1. Cihaz─▒nda saklanan bilgiler</h2>
+  <p>┼Şunlar uygulama taraf─▒ndan yerel olarak kaydedilir ve <b>bize ya da ba┼şka birine hi├ğ
+     g├Ânderilmez</b>:</p>
+  <ul>
+    <li>Rekorun ve o anki oyun tahtan</li>
+    <li>Oyun i├ği alt─▒n bakiyen</li>
+    <li>Se├ğti─şin dil</li>
+    <li>Hangi kupon kodlar─▒n─▒ kulland─▒─ş─▒n</li>
+    <li>Reklams─▒z sat─▒n almaya, Platinium Paket'e veya etkin bir aboneli─şe sahip olup olmad─▒─ş─▒n</li>
+    <li>├û─şreticiyi ve puan verme iste─şini g├Âr├╝p g├Ârmedi─şin</li>
+  </ul>
+  <p>Bu veriler yaln─▒zca uygulaman─▒n kendi deposunda durur.
+     <b>SnapTown'─▒ kald─▒rd─▒─ş─▒nda hepsi silinir.</b> Bizde kopyas─▒ yoktur, geri getirmemiz m├╝mk├╝n
+     de─şildir.</p>
+
+  <h2>2. Google'─▒n toplad─▒─ş─▒ bilgiler</h2>
+  <p>SnapTown ├╝├ğ Google hizmeti kullan─▒r. Her biri, bizim de─şil, Google'─▒n kendi gizlilik
+     politikas─▒ kapsam─▒nda veri toplar.</p>
+
+  <h3>Google AdMob (reklamlar)</h3>
+  <p>Reklam g├Âsterebilmek i├ğin Google Mobile Ads SDK's─▒ ┼şunlar─▒ toplayabilir ve i┼şleyebilir:</p>
+  <ul>
+    <li>Cihaz─▒n─▒n <b>reklam kimli─şi</b> (s─▒f─▒rlanabilir bir tan─▒mlay─▒c─▒)</li>
+    <li>Model, i┼şletim sistemi s├╝r├╝m├╝ ve dil gibi cihaz bilgileri</li>
+    <li>IP adresin ve buradan ├ğ─▒kar─▒lan yakla┼ş─▒k b├Âlge bilgisi</li>
+    <li>Reklam etkile┼şimleri ÔÇö hangi reklam─▒n g├Âsterildi─şi, g├Âr├╝nt├╝lendi─şi veya t─▒kland─▒─ş─▒</li>
+  </ul>
+  <p>Uygulama bu ama├ğla <code>com.google.android.gms.permission.AD_ID</code> iznini bildirir.
+     Reklamlar, ayarlar─▒na ve bulundu─şun b├Âlgeye ba─şl─▒ olarak ki┼şiselle┼ştirilmi┼ş veya
+     ki┼şiselle┼ştirilmemi┼ş olabilir.
+     <a href="https://policies.google.com/technologies/partner-sites">Google'─▒n hizmetlerini
+     kullanan uygulamalardan gelen bilgileri nas─▒l kulland─▒─ş─▒</a> sayfas─▒na bakabilirsin.</p>
+
+  <h3>Google Play Faturaland─▒rma (sat─▒n almalar)</h3>
+  <p>Reklams─▒z y├╝kseltmeyi, Platinium Paket'i veya bir aboneli─şi sat─▒n al─▒rsan i┼şlem tamamen
+     Google Play taraf─▒ndan y├╝r├╝t├╝l├╝r. Uygulamaya yaln─▒zca bir sat─▒n alman─▒n etkin oldu─şu bilgisi
+     gelir. <b>Kart numaran, fatura adresin ve ├Âdeme bilgilerin uygulamaya hi├ğ ula┼şmaz ve bizim
+     taraf─▒m─▒zdan g├Âr├╝lemez.</b></p>
+
+  <h3>Google Analytics for Firebase</h3>
+  <p>SnapTown, oyunun toplu olarak nas─▒l oynand─▒─ş─▒n─▒ anlamak i├ğin Google Analytics for
+     Firebase kullan─▒r. Toplanan bilgiler:</p>
+  <ul>
+    <li>Uygulama a├ğ─▒l─▒┼şlar─▒, oturum s├╝resi ve ne s─▒kl─▒kla geri d├Ând├╝─ş├╝n</li>
+    <li>Google'─▒n bu kurulum i├ğin ├╝retti─şi bir uygulama ├Ârne─şi tan─▒mlay─▒c─▒s─▒</li>
+    <li>Cihaz modeli, i┼şletim sistemi s├╝r├╝m├╝, ├╝lke ve dil</li>
+  </ul>
+  <p>Bunlar <b>toplu ve istatistiksel</b> bilgilerdir. Ad─▒na veya e-postana ba─şl─▒ de─şildir;
+     bu verilerden tek bir oyuncuyu tan─▒mlayamay─▒z. Neyi d├╝zeltece─şimize ve s─▒rada ne
+     yapaca─ş─▒m─▒za karar vermek i├ğin kullan─▒r─▒z.
+     <a href="https://firebase.google.com/support/privacy">Firebase'de Gizlilik ve
+     G├╝venlik</a> sayfas─▒na bakabilirsin.</p>
+
+  <h2>3. Yapmad─▒klar─▒m─▒z</h2>
+  <ul>
+    <li>Hi├ğbir sunucu i┼şletmiyoruz; uygulama bize veri g├Ândermiyor</li>
+    <li>├ç├Âkme raporlama veya sosyal medya SDK's─▒ kullanm─▒yoruz</li>
+    <li>Ad─▒n─▒, e-postan─▒, telefonunu, rehberini, foto─şraflar─▒n─▒ veya dosyalar─▒n─▒ toplam─▒yoruz</li>
+    <li>Kesin konumuna, kameraya veya mikrofona eri┼şmiyoruz</li>
+    <li>Ki┼şisel bilgileri veri simsarlar─▒na satm─▒yor veya payla┼şm─▒yoruz</li>
+  </ul>
+
+  <h2>4. Uygulaman─▒n istedi─şi izinler</h2>
+  <div class="kaydir">
+  <table>
+    <thead><tr><th>─░zin</th><th>Ni├ğin gerekli</th></tr></thead>
+    <tbody>
+      <tr><td><code>INTERNET</code></td><td>Reklamlar─▒ y├╝klemek ve sat─▒n almalar─▒ Google Play ile do─şrulamak i├ğin. Oyunun kendisi tamamen ├ğevrimd─▒┼ş─▒ oynanabilir.</td></tr>
+      <tr><td><code>AD_ID</code></td><td>Android 13 ve sonras─▒nda reklam SDK's─▒n─▒n reklam kimli─şini okuyabilmesi i├ğin zorunlu.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>5. Senin se├ğeneklerin</h2>
+  <ul>
+    <li><b>Reklam kimli─şini s─▒f─▒rla veya sil.</b> Android Ayarlar ÔåÆ Gizlilik ÔåÆ Reklamlar. Silersen
+        tan─▒mlay─▒c─▒ s─▒f─▒rlardan olu┼şan bir diziye d├Ân├╝┼ş├╝r.</li>
+    <li><b>Reklam ki┼şiselle┼ştirmesini kapat.</b> Ayn─▒ ayar ekran─▒. Reklamlar─▒ g├Ârmeye devam
+        edersin ama ki┼şiselle┼ştirilmi┼ş olmazlar.</li>
+    <li><b>Reklamlar─▒ tamamen kald─▒r.</b> Reklams─▒z y├╝kseltmeyi, Platinium Paket'i veya Premium
+        aboneli─şi sat─▒n al. Reklam SDK's─▒ o andan sonra reklam istemeyi b─▒rak─▒r.</li>
+    <li><b>Her ┼şeyi sil.</b> Uygulamay─▒ kald─▒r.</li>
+    <li><b>Aboneli─şi y├Ânet.</b> Google Play ÔåÆ ├ûdemeler ve abonelikler ÔåÆ Abonelikler.</li>
+  </ul>
+
+  <h2>6. ├çocuklar</h2>
+  <p>SnapTown 13 ya┼ş─▒n alt─▒ndaki ├ğocuklara y├Ânelik de─şildir. ├çocuklardan bilerek ki┼şisel bilgi
+     toplam─▒yoruz. Bir ├ğocu─şun uygulama ├╝zerinden bilgi verdi─şini d├╝┼ş├╝n├╝yorsan a┼şa─ş─▒daki adresten
+     bize ula┼ş, gere─şini yapal─▒m.</p>
+
+  <h2>7. Avrupa Ekonomik Alan─▒, Birle┼şik Krall─▒k veya ─░svi├ğre'deysen</h2>
+  <p>GDPR kapsam─▒nda ki┼şisel verilerine eri┼şme, d├╝zeltme, silme, i┼şlenmesini k─▒s─▒tlama veya buna
+     itiraz etme ve veri ta┼ş─▒nabilirli─şi haklar─▒na sahipsin. Bizde hi├ğ ki┼şisel veri bulunmad─▒─ş─▒ndan,
+     reklam verileriyle ilgili taleplerini bu i┼şlemenin sorumlusu olan Google'a y├Âneltmelisin.
+     Ayr─▒ca ├╝lkendeki veri koruma otoritesine ┼şik├óyette bulunabilirsin.</p>
+
+  <h2>8. Kaliforniya'daysan</h2>
+  <p>CCPA/CPRA kapsam─▒nda hangi ki┼şisel bilgilerin topland─▒─ş─▒n─▒ ├Â─şrenme, silinmesini isteme ve
+     sat─▒lmas─▒na veya payla┼ş─▒lmas─▒na itiraz etme hakk─▒na sahipsin. Ki┼şisel bilgi satm─▒yor veya
+     payla┼şm─▒yoruz. Reklam verileri Google taraf─▒ndan i┼şlenir.</p>
+
+  <h2>9. Verilerin saklanmas─▒</h2>
+  <p>Bizde ki┼şisel veri tutulmuyor. Analitik veriler bizim ad─▒m─▒za Google taraf─▒ndan saklan─▒r
+     ve en fazla 14 ay tutulur. Cihaz─▒ndaki veriler, uygulamay─▒ kald─▒rana
+     veya deposunu temizleyene kadar durur. Google'─▒n toplad─▒─ş─▒ veriler Google'─▒n kendi saklama
+     takvimine g├Âre tutulur.</p>
+
+  <h2>10. G├╝venlik</h2>
+  <p>SnapTown verileri yaln─▒zca cihaz─▒nda saklad─▒─ş─▒ ve bize hi├ğbir ┼şey g├Ândermedi─şi i├ğin,
+     kaybedebilece─şimiz bir hesab─▒n yok. Sat─▒n alma do─şrulamas─▒ Google Play taraf─▒ndan ┼şifreli bir
+     ba─şlant─▒ ├╝zerinden yap─▒l─▒r.</p>
+
+  <h2>11. Bu politikadaki de─şi┼şiklikler</h2>
+  <p>Bu politika de─şi┼şirse g├╝ncel s├╝r├╝m yeni bir "son g├╝ncelleme" tarihiyle bu adreste yay─▒nlan─▒r.
+     ├ûnemli de─şi┼şiklikler ayr─▒ca Google Play'deki s├╝r├╝m notlar─▒nda belirtilir.</p>
+
+  <h2>12. ─░leti┼şim</h2>
+  <p>Bu politika veya verilerinle ilgili sorular i├ğin:<br>
+     <a href="mailto:cagin344@gmail.com">cagin344@gmail.com</a></p>
+  <p>├ça─ş─▒n Emek Davarc─▒ (cagan_inc) ┬À ─░zmir, T├╝rkiye</p>
+
+  <h2>├£├ğ├╝nc├╝ taraf politikalar─▒</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy">Google Gizlilik Politikas─▒</a></li>
+    <li><a href="https://policies.google.com/technologies/ads">Google'─▒n reklamc─▒l─▒kta ├ğerez kullan─▒m─▒</a></li>
+    <li><a href="https://support.google.com/admob/answer/6128543">AdMob ve veri toplama</a></li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <div class="sar">
+    <span class="kunye">SnapTown ┬À cagan_inc</span>
+    <a href="mailto:cagin344@gmail.com">cagin344@gmail.com</a>
+  </div>
+</footer>
+
+<script>
+/* Dil secimi. Adres satirindaki #tr ile dogrudan Turkce acilabilir,
+   boylece Play Console'a istenirse dogrudan Turkce baglanti verilebilir. */
+(function(){
+  var en = document.getElementById("en");
+  var tr = document.getElementById("tr");
+  var bEn = document.getElementById("btnEn");
+  var bTr = document.getElementById("btnTr");
+
+  function goster(dil){
+    var turkce = dil === "tr";
+    tr.hidden = !turkce;
+    en.hidden = turkce;
+    bTr.setAttribute("aria-pressed", String(turkce));
+    bEn.setAttribute("aria-pressed", String(!turkce));
+    document.documentElement.lang = turkce ? "tr" : "en";
+    document.title = turkce
+      ? "SnapTown ÔÇö Gizlilik Politikas─▒"
+      : "SnapTown ÔÇö Privacy Policy";
+  }
+
+  bEn.addEventListener("click", function(){ goster("en"); location.hash = ""; });
+  bTr.addEventListener("click", function(){ goster("tr"); location.hash = "tr"; });
+
+  goster(location.hash.replace("#", "").toLowerCase() === "tr" ? "tr" : "en");
+})();
+</script>
+</body>
+</html>
