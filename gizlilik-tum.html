@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cagan_inc — Gizlilik Politikası / Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Figtree:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --zemin:#eef7ff; --panel:#ffffff;
+  --ink:#123047; --ink-2:#406782; --ink-3:#5b7e96;
+  --cizgi:rgba(18,48,71,.13); --cizgi-2:rgba(18,48,71,.07);
+  --altin:#ffb340; --altin-ink:#8f5309; --altin-yum:rgba(255,179,64,.16);
+  --golge:rgba(28,74,112,.12);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --zemin:#081d2e; --panel:#0e2739;
+    --ink:#e4f1fb; --ink-2:#a9c6da; --ink-3:#89aac1;
+    --cizgi:rgba(196,224,244,.16); --cizgi-2:rgba(196,224,244,.08);
+    --altin:#ffc465; --altin-ink:#ffd48c; --altin-yum:rgba(255,196,101,.14);
+    --golge:rgba(0,0,0,.45);
+  }
+}
+:root[data-theme="dark"]{
+  --zemin:#081d2e; --panel:#0e2739;
+  --ink:#e4f1fb; --ink-2:#a9c6da; --ink-3:#89aac1;
+  --cizgi:rgba(196,224,244,.16); --cizgi-2:rgba(196,224,244,.08);
+  --altin:#ffc465; --altin-ink:#ffd48c; --altin-yum:rgba(255,196,101,.14);
+  --golge:rgba(0,0,0,.45);
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--zemin); color:var(--ink);
+  font-family:"Figtree",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+  font-size:16px; line-height:1.68; -webkit-font-smoothing:antialiased;
+}
+.sar{max-width:760px; margin:0 auto; padding:0 24px}
+header{border-bottom:1px solid var(--cizgi-2); padding:22px 0; margin-bottom:8px}
+header .sar{display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap}
+.marka{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:20px; letter-spacing:-.01em}
+.diller{display:flex; gap:6px}
+.diller button{
+  font-family:"DM Mono",ui-monospace,monospace; font-size:11px; font-weight:500;
+  letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+  padding:7px 13px; border-radius:3px;
+  background:transparent; color:var(--ink-2); border:1px solid var(--cizgi);
+}
+.diller button[aria-pressed="true"]{
+  background:var(--altin-yum); color:var(--altin-ink);
+  border-color:color-mix(in srgb, var(--altin) 40%, transparent);
+}
+main{padding:26px 0 70px}
+h1{font-family:"Fraunces",Georgia,serif; font-weight:400; font-size:clamp(30px,5vw,42px);
+   line-height:1.12; letter-spacing:-.022em; margin:0 0 10px; text-wrap:balance}
+h2{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:22px;
+   letter-spacing:-.012em; margin:38px 0 10px; text-wrap:balance}
+h3{font-size:16px; font-weight:700; margin:22px 0 6px}
+p,li{color:var(--ink-2)}
+p{margin:0 0 13px}
+ul{margin:0 0 13px; padding-left:20px}
+li{margin:5px 0}
+b,strong{color:var(--ink)}
+a{color:var(--ink); text-decoration:none; border-bottom:1px solid var(--cizgi)}
+a:hover{border-color:var(--altin)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--altin); outline-offset:3px; border-radius:2px}
+.tarih{
+  font-family:"DM Mono",ui-monospace,monospace; font-size:11.5px;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3); margin-bottom:26px;
+}
+.kutu{
+  background:var(--panel); border:1px solid var(--cizgi-2);
+  border-radius:5px; padding:18px 20px; margin:16px 0;
+  box-shadow:0 2px 10px var(--golge);
+}
+.kutu p:last-child{margin-bottom:0}
+table{width:100%; border-collapse:collapse; margin:14px 0; font-size:15px}
+.kaydir{overflow-x:auto}
+th,td{text-align:left; padding:10px 12px; border-bottom:1px solid var(--cizgi-2); vertical-align:top}
+th{
+  font-family:"DM Mono",ui-monospace,monospace; font-size:10.5px; font-weight:500;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3);
+}
+td{color:var(--ink-2)}
+footer{border-top:1px solid var(--cizgi); padding:26px 0 44px}
+footer .sar{display:flex; flex-wrap:wrap; gap:14px; justify-content:space-between; align-items:center}
+.kunye{font-family:"DM Mono",ui-monospace,monospace; font-size:11px;
+       letter-spacing:.13em; text-transform:uppercase; color:var(--ink-3)}
+[hidden]{display:none !important}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="sar">
+    <span class="marka">cagan_inc</span>
+    <div class="diller">
+      <button id="btnTr" aria-pressed="true">Türkçe</button>
+      <button id="btnEn" aria-pressed="false">English</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============================ TÜRKÇE ============================ -->
+<section id="tr" class="sar">
+  <h1>Gizlilik Politikası</h1>
+  <p class="tarih">cagan_inc · Son güncelleme 4 Eylül 2026</p>
+
+  <p>Bu politika, <b>Çağın Emek Davarcı</b> (<b>cagan_inc</b> adıyla yayın yapan bağımsız
+     geliştirici, Türkiye) tarafından Google Play'de yayınlanan aşağıdaki uygulamaların
+     tamamı için geçerlidir.</p>
+
+  <div class="kutu">
+    <p><b>Kısa özet.</b> Uygulamalarımızda hesap yok, giriş yok ve bize ait hiçbir sunucu
+       yok. Adını, e-postanı veya telefon numaranı hiç istemiyoruz. İlerlemen cihazında
+       kalıyor. Uygulamalar reklam gösteriyor; reklamlar için Google cihazınla ilgili
+       bazı verileri alıyor. Ayrıntılar aşağıda.</p>
+  </div>
+
+  <h2>1. Kapsanan uygulamalar</h2>
+  <div class="kaydir">
+  <table>
+    <thead><tr><th>Uygulama</th><th>Paket adı</th><th>Tür</th><th>Ek veri</th></tr></thead>
+    <tbody>
+      <tr><td><b>SnapTown</b></td><td><code>com.snaptown</code></td><td>Birleştirme bulmacası</td><td>Satın alma, Analitik</td></tr>
+      <tr><td><b>Blok Fırtınası</b></td><td><code>com.caganinc.blokfirtinasi</code></td><td>Blok bulmacası</td><td>Yalnızca reklam</td></tr>
+      <tr><td><b>Gerçek Burcun Hangisi?</b></td><td><code>com.truezodiac</code></td><td>Burç testi</td><td>Yalnızca reklam</td></tr>
+      <tr><td><b>Hegamonya</b></td><td><code>com.hegamonya</code></td><td>Strateji oyunu</td><td>Yalnızca reklam</td></tr>
+      <tr><td><b>Hazine Avcısı</b></td><td><code>com.caganinc.objecthunt</code></td><td>Nesne bulma oyunu</td><td>Kamera</td></tr>
+      <tr><td><b>Kalori Defteri</b></td><td><code>com.caganinc.kaloritakip</code></td><td>Kalori takibi</td><td>Kamera</td></tr>
+      <tr><td><b>Kelime Diyarı</b></td><td><code>com.caganinc.kelimediyari</code></td><td>Kelime oyunu</td><td>Yalnızca reklam</td></tr>
+      <tr><td><b>Tap Deep</b></td><td><code>com.caganinc.tapdeep</code></td><td>Madencilik oyunu</td><td>Yalnızca reklam</td></tr>
+      <tr><td><b>Water Color Sort</b></td><td><code>com.caganinc.watersort</code></td><td>Sıralama bulmacası</td><td>Yalnızca reklam</td></tr>
+      <tr><td><b>Tahmin Ustası</b></td><td><code>com.caganinc.tahminustasi</code></td><td>Tahmin oyunu</td><td>Yalnızca reklam</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>2. Cihazında saklanan bilgiler</h2>
+  <p>Uygulamalar ilerlemeni <b>yalnızca cihazında</b> saklar. Bu veriler bize ya da başka
+     birine <b>hiç gönderilmez</b>:</p>
+  <ul>
+    <li>Skorun, rekorun ve oyun durumun</li>
+    <li>Oyun içi para veya puan bakiyen</li>
+    <li>Seçtiğin dil ve ayarlar</li>
+    <li>Öğreticiyi görüp görmediğin</li>
+  </ul>
+  <p><b>Uygulamayı kaldırdığında hepsi silinir.</b> Bizde kopyası yoktur.</p>
+
+  <h2>3. Google AdMob (reklamlar)</h2>
+  <p>Tüm uygulamalarımız reklam gösterir. Google Mobile Ads SDK'sı şunları toplayabilir:</p>
+  <ul>
+    <li>Cihazının <b>reklam kimliği</b> (sıfırlanabilir bir tanımlayıcı)</li>
+    <li>Cihaz modeli, işletim sistemi sürümü ve dil</li>
+    <li>IP adresin ve buradan çıkarılan yaklaşık bölge</li>
+    <li>Reklam etkileşimleri — hangi reklam gösterildi, görüntülendi veya tıklandı</li>
+  </ul>
+  <p>Uygulamalar bu amaçla <code>com.google.android.gms.permission.AD_ID</code> iznini
+     bildirir. Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'deki kullanıcılara,
+     reklam yüklenmeden önce Google'ın sertifikalı onay formu gösterilir.
+     Ayrıntı için <a href="https://policies.google.com/technologies/partner-sites">Google'ın
+     uygulamalardan gelen bilgileri nasıl kullandığı</a> sayfasına bakabilirsin.</p>
+
+  <h2>4. Kamera — yalnızca iki uygulamada</h2>
+  <div class="kutu">
+    <p><b>Hazine Avcısı</b> ve <b>Kalori Defteri</b> arka kamerayı kullanır.</p>
+    <p>Kamera görüntüsü <b>yalnızca canlı olarak, cihazında</b> işlenir.
+       <b>Hiçbir görüntü kaydedilmez, saklanmaz veya herhangi bir yere gönderilmez.</b>
+       Uygulamalarda fotoğraf yükleme ya da sunucuya gönderme özelliği bulunmaz.</p>
+    <p>Kamera izni istendiğinde reddedebilirsin; uygulamanın diğer bölümleri çalışmaya
+       devam eder.</p>
+  </div>
+
+  <h2>5. Google Play Faturalandırma — yalnızca SnapTown</h2>
+  <p>SnapTown'da uygulama içi satın alma bulunur. İşlem tamamen Google Play tarafından
+     yürütülür; uygulamaya yalnızca satın almanın etkin olduğu bilgisi gelir.
+     <b>Kart numaran, fatura adresin ve ödeme bilgilerin uygulamaya hiç ulaşmaz ve bizim
+     tarafımızdan görülemez.</b> Diğer uygulamalarda satın alma yoktur.</p>
+
+  <h2>6. Google Analytics for Firebase — yalnızca SnapTown</h2>
+  <p>SnapTown'da oyunun toplu olarak nasıl oynandığını anlamak için Firebase Analytics
+     kullanılır: uygulama açılışları, oturum süresi, geri dönüş sıklığı, cihaz modeli,
+     ülke ve dil. Bunlar <b>toplu ve istatistiksel</b> bilgilerdir; adına veya e-postana
+     bağlı değildir. Diğer uygulamalarda analitik yoktur.</p>
+
+  <h2>7. Yapmadıklarımız</h2>
+  <ul>
+    <li>Hiçbir sunucu işletmiyoruz; uygulamalar bize veri göndermiyor</li>
+    <li>Çökme raporlama veya sosyal medya SDK'sı kullanmıyoruz</li>
+    <li>Adını, e-postanı, telefonunu, rehberini veya dosyalarını toplamıyoruz</li>
+    <li>Kesin konumuna veya mikrofona erişmiyoruz</li>
+    <li>Kişisel bilgileri veri simsarlarına satmıyor veya paylaşmıyoruz</li>
+  </ul>
+
+  <h2>8. İzinler</h2>
+  <div class="kaydir">
+  <table>
+    <thead><tr><th>İzin</th><th>Hangi uygulamalarda</th><th>Niçin</th></tr></thead>
+    <tbody>
+      <tr><td><code>INTERNET</code></td><td>Hepsi</td><td>Reklamları yüklemek için. Oyunlar çevrimdışı oynanabilir.</td></tr>
+      <tr><td><code>AD_ID</code></td><td>Hepsi</td><td>Android 13+ için reklam SDK'sının zorunlu izni.</td></tr>
+      <tr><td><code>CAMERA</code></td><td>Hazine Avcısı, Kalori Defteri</td><td>Canlı kamera görüntüsü. Kayıt yapılmaz.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>9. Senin seçeneklerin</h2>
+  <ul>
+    <li><b>Reklam kimliğini sıfırla veya sil:</b> Android Ayarlar → Gizlilik → Reklamlar</li>
+    <li><b>Reklam kişiselleştirmesini kapat:</b> aynı ayar ekranı</li>
+    <li><b>Kamera iznini reddet:</b> uygulama çalışmaya devam eder</li>
+    <li><b>Her şeyi sil:</b> uygulamayı kaldır</li>
+  </ul>
+
+  <h2>10. Çocuklar</h2>
+  <p>Uygulamalarımız 13 yaşın altındaki çocuklara yönelik değildir. Çocuklardan bilerek
+     kişisel bilgi toplamıyoruz. Bir çocuğun bilgi verdiğini düşünüyorsan bize ulaş.</p>
+
+  <h2>11. AEA, Birleşik Krallık ve İsviçre</h2>
+  <p>GDPR kapsamında erişim, düzeltme, silme, işlemeyi kısıtlama, itiraz ve veri
+     taşınabilirliği haklarına sahipsin. Bizde kişisel veri bulunmadığından reklam
+     verileriyle ilgili talepleri, bu işlemenin sorumlusu olan Google'a yöneltmelisin.
+     Ülkendeki veri koruma otoritesine şikâyette bulunabilirsin.</p>
+
+  <h2>12. Kaliforniya</h2>
+  <p>CCPA/CPRA kapsamında toplanan bilgileri öğrenme, silinmesini isteme ve satılmasına
+     itiraz etme hakkına sahipsin. Kişisel bilgi satmıyor veya paylaşmıyoruz.</p>
+
+  <h2>13. Verilerin saklanması</h2>
+  <p>Bizde kişisel veri tutulmaz. Cihazındaki veriler, uygulamayı kaldırana kadar durur.
+     Google'ın topladığı veriler Google'ın kendi saklama takvimine tabidir; SnapTown'daki
+     analitik veriler en fazla 14 ay tutulur.</p>
+
+  <h2>14. Değişiklikler</h2>
+  <p>Bu politika değişirse güncel sürüm yeni bir tarihle bu adreste yayınlanır.</p>
+
+  <h2>15. İletişim</h2>
+  <p><a href="mailto:cagin344@gmail.com">cagin344@gmail.com</a><br>
+     Çağın Emek Davarcı (cagan_inc) · İzmir, Türkiye</p>
+
+  <h2>Üçüncü taraf politikaları</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a></li>
+    <li><a href="https://support.google.com/admob/answer/6128543">AdMob ve veri toplama</a></li>
+    <li><a href="https://firebase.google.com/support/privacy">Firebase'de Gizlilik ve Güvenlik</a></li>
+  </ul>
+</section>
+
+<!-- ============================ ENGLISH ============================ -->
+<section id="en" class="sar" hidden>
+  <h1>Privacy Policy</h1>
+  <p class="tarih">cagan_inc · Last updated 4 September 2026</p>
+
+  <p>This policy applies to all of the following apps published on Google Play by
+     <b>Çağın Emek Davarcı</b>, an individual developer based in Türkiye, trading as
+     <b>cagan_inc</b>.</p>
+
+  <div class="kutu">
+    <p><b>The short version.</b> Our apps have no accounts, no sign-in, and no servers of
+       our own. We never ask for your name, email address or phone number. Your progress
+       stays on your device. The apps show ads, and for that Google receives some data
+       about your device. Details below.</p>
+  </div>
+
+  <h2>1. Apps covered</h2>
+  <div class="kaydir">
+  <table>
+    <thead><tr><th>App</th><th>Package</th><th>Type</th><th>Extra data</th></tr></thead>
+    <tbody>
+      <tr><td><b>SnapTown</b></td><td><code>com.snaptown</code></td><td>Birleştirme bulmacası</td><td>Purchases, Analytics</td></tr>
+      <tr><td><b>Blok Fırtınası</b></td><td><code>com.caganinc.blokfirtinasi</code></td><td>Blok bulmacası</td><td>Ads only</td></tr>
+      <tr><td><b>Gerçek Burcun Hangisi?</b></td><td><code>com.truezodiac</code></td><td>Burç testi</td><td>Ads only</td></tr>
+      <tr><td><b>Hegamonya</b></td><td><code>com.hegamonya</code></td><td>Strateji oyunu</td><td>Ads only</td></tr>
+      <tr><td><b>Hazine Avcısı</b></td><td><code>com.caganinc.objecthunt</code></td><td>Nesne bulma oyunu</td><td>Camera</td></tr>
+      <tr><td><b>Kalori Defteri</b></td><td><code>com.caganinc.kaloritakip</code></td><td>Kalori takibi</td><td>Camera</td></tr>
+      <tr><td><b>Kelime Diyarı</b></td><td><code>com.caganinc.kelimediyari</code></td><td>Kelime oyunu</td><td>Ads only</td></tr>
+      <tr><td><b>Tap Deep</b></td><td><code>com.caganinc.tapdeep</code></td><td>Madencilik oyunu</td><td>Ads only</td></tr>
+      <tr><td><b>Water Color Sort</b></td><td><code>com.caganinc.watersort</code></td><td>Sıralama bulmacası</td><td>Ads only</td></tr>
+      <tr><td><b>Tahmin Ustası</b></td><td><code>com.caganinc.tahminustasi</code></td><td>Tahmin oyunu</td><td>Ads only</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>2. Information stored on your device</h2>
+  <p>The apps save your progress <b>on your device only</b>. This data is
+     <b>never transmitted</b> to us or anyone else:</p>
+  <ul>
+    <li>Your score, best score and game state</li>
+    <li>Any in-game currency or points</li>
+    <li>Your chosen language and settings</li>
+    <li>Whether you have seen the tutorial</li>
+  </ul>
+  <p><b>Uninstalling the app deletes all of it.</b> We hold no copy.</p>
+
+  <h2>3. Google AdMob (advertising)</h2>
+  <p>All of our apps show ads. The Google Mobile Ads SDK may collect:</p>
+  <ul>
+    <li>Your device's <b>advertising ID</b> (a resettable identifier)</li>
+    <li>Device model, operating system version and language</li>
+    <li>Your IP address and the approximate region derived from it</li>
+    <li>Ad interactions — which ads were shown, viewed or tapped</li>
+  </ul>
+  <p>The apps declare the <code>com.google.android.gms.permission.AD_ID</code> permission
+     for this purpose. Users in the European Economic Area, the UK and Switzerland are
+     shown Google's certified consent form before any ad is loaded. See
+     <a href="https://policies.google.com/technologies/partner-sites">How Google uses
+     information from apps that use our services</a>.</p>
+
+  <h2>4. Camera — two apps only</h2>
+  <div class="kutu">
+    <p><b>Hazine Avcısı</b> and <b>Kalori Defteri</b> use the rear camera.</p>
+    <p>The camera feed is processed <b>live, on your device only</b>.
+       <b>No image is captured, stored or transmitted anywhere.</b> The apps contain no
+       photo upload or server transmission feature.</p>
+    <p>You may decline the camera permission; the rest of the app keeps working.</p>
+  </div>
+
+  <h2>5. Google Play Billing — SnapTown only</h2>
+  <p>SnapTown offers in-app purchases. The transaction is handled entirely by Google Play;
+     the app only receives confirmation that a purchase is active. <b>Your card number,
+     billing address and payment details never reach the app and are never visible to
+     us.</b> The other apps have no purchases.</p>
+
+  <h2>6. Google Analytics for Firebase — SnapTown only</h2>
+  <p>SnapTown uses Firebase Analytics to understand how the game is played in aggregate:
+     app opens, session length, how often you return, device model, country and language.
+     This is <b>aggregate, statistical</b> information, not linked to your name or email.
+     The other apps have no analytics.</p>
+
+  <h2>7. What we do not do</h2>
+  <ul>
+    <li>We run no server; the apps send us no data</li>
+    <li>We use no crash reporting SDK and no social media SDK</li>
+    <li>We do not collect your name, email, phone, contacts or files</li>
+    <li>We do not access your precise location or microphone</li>
+    <li>We do not sell or share personal information with data brokers</li>
+  </ul>
+
+  <h2>8. Permissions</h2>
+  <div class="kaydir">
+  <table>
+    <thead><tr><th>Permission</th><th>Which apps</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td><code>INTERNET</code></td><td>All</td><td>To load ads. The games are playable offline.</td></tr>
+      <tr><td><code>AD_ID</code></td><td>All</td><td>Required by Android 13+ for the advertising SDK.</td></tr>
+      <tr><td><code>CAMERA</code></td><td>Hazine Avcısı, Kalori Defteri</td><td>Live camera view. Nothing is recorded.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>9. Your choices</h2>
+  <ul>
+    <li><b>Reset or delete your advertising ID:</b> Android Settings → Privacy → Ads</li>
+    <li><b>Turn off ad personalisation:</b> same settings screen</li>
+    <li><b>Decline the camera permission:</b> the app keeps working</li>
+    <li><b>Delete everything:</b> uninstall the app</li>
+  </ul>
+
+  <h2>10. Children</h2>
+  <p>Our apps are not directed at children under 13. We do not knowingly collect personal
+     information from children. If you believe a child has provided information, contact us.</p>
+
+  <h2>11. EEA, UK and Switzerland</h2>
+  <p>Under the GDPR you have rights of access, rectification, erasure, restriction,
+     objection and portability. Because we hold no personal data, requests about
+     advertising data should be directed to Google, the controller for that processing.
+     You may also complain to your national data protection authority.</p>
+
+  <h2>12. California</h2>
+  <p>Under the CCPA/CPRA you may know what is collected, request deletion, and opt out of
+     sale or sharing. We do not sell or share personal information.</p>
+
+  <h2>13. Data retention</h2>
+  <p>We retain no personal data. Data on your device is kept until you uninstall the app.
+     Data collected by Google follows Google's own retention schedules; SnapTown's
+     analytics data is retained for up to 14 months.</p>
+
+  <h2>14. Changes</h2>
+  <p>If this policy changes, the updated version is published at this address with a new date.</p>
+
+  <h2>15. Contact</h2>
+  <p><a href="mailto:cagin344@gmail.com">cagin344@gmail.com</a><br>
+     Çağın Emek Davarcı (cagan_inc) · İzmir, Türkiye</p>
+
+  <h2>Third-party policies</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+    <li><a href="https://support.google.com/admob/answer/6128543">AdMob and data collection</a></li>
+    <li><a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a></li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <div class="sar">
+    <span class="kunye">cagan_inc · İzmir, Türkiye</span>
+    <a href="mailto:cagin344@gmail.com">cagin344@gmail.com</a>
+  </div>
+</footer>
+
+<script>
+/* Dil secimi. Adres satirinda #en varsa dogrudan Ingilizce acilir. */
+(function(){
+  var tr = document.getElementById("tr"), en = document.getElementById("en");
+  var bTr = document.getElementById("btnTr"), bEn = document.getElementById("btnEn");
+  function goster(dil){
+    var ing = dil === "en";
+    en.hidden = !ing; tr.hidden = ing;
+    bEn.setAttribute("aria-pressed", String(ing));
+    bTr.setAttribute("aria-pressed", String(!ing));
+    document.documentElement.lang = ing ? "en" : "tr";
+    document.title = ing ? "cagan_inc — Privacy Policy"
+                         : "cagan_inc — Gizlilik Politikası";
+  }
+  bTr.addEventListener("click", function(){ goster("tr"); location.hash = ""; });
+  bEn.addEventListener("click", function(){ goster("en"); location.hash = "en"; });
+  goster(location.hash.replace("#","").toLowerCase() === "en" ? "en" : "tr");
+})();
+</script>
+</body>
+</html>
