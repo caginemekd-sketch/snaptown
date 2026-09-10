@@ -133,6 +133,7 @@ footer .sar{display:flex; flex-wrap:wrap; gap:14px; justify-content:space-betwee
       <tr><td><b>Kelime Diyarı</b></td><td><code>com.caganinc.kelimediyari</code></td><td>Kelime oyunu</td><td>Yalnızca reklam</td></tr>
       <tr><td><b>Tap Deep</b></td><td><code>com.caganinc.tapdeep</code></td><td>Madencilik oyunu</td><td>Yalnızca reklam</td></tr>
       <tr><td><b>Water Color Sort</b></td><td><code>com.caganinc.watersort</code></td><td>Sıralama bulmacası</td><td>Yalnızca reklam</td></tr>
+      <tr><td><b>Konuşan Hamam Böceği</b></td><td><code>com.caganinc.hamambocegi</code></td><td>Sanal evcil hayvan</td><td>Mikrofon, satın alma</td></tr>
       <tr><td><b>Tahmin Ustası</b></td><td><code>com.caganinc.tahminustasi</code></td><td>Tahmin oyunu</td><td>Yalnızca reklam</td></tr>
     </tbody>
   </table>
@@ -204,10 +205,11 @@ footer .sar{display:flex; flex-wrap:wrap; gap:14px; justify-content:space-betwee
 
   <h2>7. Yapmadıklarımız</h2>
   <ul>
-    <li>Hiçbir sunucu işletmiyoruz; uygulamalar bize veri göndermiyor</li>
+    <li>Kalori Defteri’ndeki fotoğraf analizi dışında hiçbir uygulama bize veri göndermez. O özellikte de sunucumuz görseli yalnızca iletir, saklamaz</li>
     <li>Çökme raporlama veya sosyal medya SDK'sı kullanmıyoruz</li>
     <li>Adını, e-postanı, telefonunu, rehberini veya dosyalarını toplamıyoruz</li>
-    <li>Kesin konumuna veya mikrofona erişmiyoruz</li>
+    <li>Kesin konumuna erişmiyoruz</li>
+    <li>Mikrofona yalnızca Konuşan Hamam Böceği’nde ve yalnızca sen konuşma düğmesine bastığında erişiriz. Kayıt cihazından çıkmaz; bize veya üçüncü bir tarafa gönderilmez</li>
     <li>Kişisel bilgileri veri simsarlarına satmıyor veya paylaşmıyoruz</li>
   </ul>
 
@@ -219,6 +221,7 @@ footer .sar{display:flex; flex-wrap:wrap; gap:14px; justify-content:space-betwee
       <tr><td><code>INTERNET</code></td><td>Hepsi</td><td>Reklamları yüklemek için. Oyunlar çevrimdışı oynanabilir.</td></tr>
       <tr><td><code>AD_ID</code></td><td>Hepsi</td><td>Android 13+ için reklam SDK'sının zorunlu izni.</td></tr>
       <tr><td><code>CAMERA</code></td><td>Hazine Avcısı</td><td>Canlı kamera görüntüsü. Kayıt yapılmaz.</td></tr>
+      <tr><td><code>RECORD_AUDIO</code></td><td>Konuşan Hamam Böceği</td><td>Konuşma düğmesine bastığında sesini kaydedip karakterin sesiyle tekrarlamak için. Kayıt cihazda kalır, en fazla 8 saniyedir; karakter değişince veya uygulama kapanınca silinir.</td></tr>
     </tbody>
   </table>
   </div>
@@ -295,6 +298,7 @@ footer .sar{display:flex; flex-wrap:wrap; gap:14px; justify-content:space-betwee
       <tr><td><b>Kelime Diyarı</b></td><td><code>com.caganinc.kelimediyari</code></td><td>Kelime oyunu</td><td>Ads only</td></tr>
       <tr><td><b>Tap Deep</b></td><td><code>com.caganinc.tapdeep</code></td><td>Madencilik oyunu</td><td>Ads only</td></tr>
       <tr><td><b>Water Color Sort</b></td><td><code>com.caganinc.watersort</code></td><td>Sıralama bulmacası</td><td>Ads only</td></tr>
+      <tr><td><b>Konuşan Hamam Böceği</b></td><td><code>com.caganinc.hamambocegi</code></td><td>Virtual pet</td><td>Microphone, purchases</td></tr>
       <tr><td><b>Tahmin Ustası</b></td><td><code>com.caganinc.tahminustasi</code></td><td>Tahmin oyunu</td><td>Ads only</td></tr>
     </tbody>
   </table>
@@ -364,10 +368,11 @@ footer .sar{display:flex; flex-wrap:wrap; gap:14px; justify-content:space-betwee
 
   <h2>7. What we do not do</h2>
   <ul>
-    <li>We run no server; the apps send us no data</li>
+    <li>Apart from the photo analysis in Kalori Defteri, no app sends us any data. Even there, our server only forwards the image and does not store it</li>
     <li>We use no crash reporting SDK and no social media SDK</li>
     <li>We do not collect your name, email, phone, contacts or files</li>
-    <li>We do not access your precise location or microphone</li>
+    <li>We do not access your precise location</li>
+    <li>We access the microphone only in Konuşan Hamam Böceği, and only while you are recording with the talk button. The recording never leaves your device and is not sent to us or to any third party</li>
     <li>We do not sell or share personal information with data brokers</li>
   </ul>
 
@@ -379,6 +384,7 @@ footer .sar{display:flex; flex-wrap:wrap; gap:14px; justify-content:space-betwee
       <tr><td><code>INTERNET</code></td><td>All</td><td>To load ads. The games are playable offline.</td></tr>
       <tr><td><code>AD_ID</code></td><td>All</td><td>Required by Android 13+ for the advertising SDK.</td></tr>
       <tr><td><code>CAMERA</code></td><td>Hazine Avcısı</td><td>Live camera view. Nothing is recorded.</td></tr>
+      <tr><td><code>RECORD_AUDIO</code></td><td>Konuşan Hamam Böceği</td><td>To record your voice while you use the talk button and replay it in the character’s voice. The recording stays on the device, lasts at most 8 seconds and is deleted when you switch character or close the app.</td></tr>
     </tbody>
   </table>
   </div>
